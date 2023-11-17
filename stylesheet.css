@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Merriweather:wght@300&family=Oleo+Script&family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Merriweather:wght@300&family=Oleo+Script&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@300&display=swap');
+
+@font-face {
+    font-family: "Champagne";
+    src: url("https://westmeccoding.github.io/chocolate_starter_files/cac_champagne.woff")
+        format("woff"),
+      /*     url("https://drive.google.com/uc?export=view&id=17yiV9ccaukiu3vlo1ILINzItAoY57DCX")
+        format("ttf"); */;
+    font-style: cursive;
+  }
+
+
+
+
+
+body {
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    max-width: 1920px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    font-family:'Raleway'
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 20px;
+    line-height: 40px;
+    width:100%;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+
+    font-family:"Raleway"
+}
+
+main {
+    
+    background-color: #f2f0f0;
+}
+
+.project {
+    background-color: #f2f0f0;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:3px;
+    display:inline-block;
+    width:48%;
+
+}
+
+.ProjectLinks {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family:"Raleway";
+    margin:10px;
+
+    
+   width:90%;
+}
+
+.ProjectLinks:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width:1920px;
+}
+
+.Descriptions {
+    
+    
+    width:48%;
+    font-size: 1.5em;
+}
+#OtherProjectHeader {
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    line-height: 60px;
+    background-color: #333;
+    color: white;
+    
+}
+img {
+    display:inline-block;
+    text-align:center;
+    
+}
+aside {
+    padding-left: 10px;
+    margin-top:83.5px;
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+dt {
+    font-family:"Raleway";
+    font-size: 4em;
+    padding-left: 35px;
+    
+  }
+dd {
+    
+    
+    font-size: 2.5em;
+    
+    font-family: "Raleway";
+    
+  }
+  dl {
+    background-color: #6f4e37;
+    float: right;
+    
+    
+  }
+  #FAQ {
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    background-color:black;
+    padding:25px;
+    letter-spacing:10px;
+    
+  }
+  div {
+    
+
+  }
+  .projectDes {
+    font-size:2em;
+    text-align:center;
+  }
+  .projectHeaders {
+    text-align:center;
+  }
+  .center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  }
+  .center:hover {
+    filter: blur(0px);
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  
