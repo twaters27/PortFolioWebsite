@@ -9,7 +9,9 @@
 <body>
     <header>
         <h1>Coding Portfolio</h1>
+        
     </header>
+    
     
     <main>
         
@@ -57,10 +59,29 @@
        
 
         </div>
+        <div class="filler">
+
+
+        </div>
+
+
+        <div class="toptexts2" id="toptexts2">
+            <section id="showcaseSection">
+                
+
+
+            </section>
+           
+        </div>
+
+        <div class="filler">
+
+        </div>
+         
         
-        <hr>
+       
         <h1 id="OtherProjectHeader">My Other Projects</h1>
-        <section class="project">
+        <section id ="projectSection" class="project">
             <h2 class ="projectHeaders">Project 1: Soccer Game </h2>
             <p class="projectDes">A Soccer Game created using the Javascript Canvas Element.</p>
             <p><a href="https://twaters27.github.io/SoccerGame/"><img class="center" src="soccerpic.png" width="800px" height="550px"></a></p>
@@ -90,6 +111,15 @@
     <footer>
         <p>&copy; 2023 Trevor Waters</p>
     </footer>
-    
+    <script> window.addEventListener("scroll", function() {showFunction()});
+
+        function showFunction() {
+            if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+                document.getElementById("toptexts2").style.display = "block";
+            } else {
+                document.getElementById("toptexts2").style.display = "none";
+            }
+        }</script>
+        
 </body>
 </html>
