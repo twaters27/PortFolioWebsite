@@ -10,6 +10,10 @@
     font-style: cursive;
   }
 
+  html::-webkit-scrollbar {
+    display:none;
+  }
+
 
 
 
@@ -26,7 +30,7 @@ header, main, footer {
     text-align:center;
     
     margin: 0 auto;
-    padding: 20px;
+    
     font-family:'Raleway'
 }
 
@@ -42,7 +46,7 @@ header {
 h1 {
     margin: 0;
     text-align: center;
-    
+    padding:20px;
 
     font-family:"Raleway"
 }
@@ -51,16 +55,42 @@ main {
     
     background-color: #f2f0f0;
 }
-#showcaseSection {
-  display:inline-block;
-  border: solid black 2px;
-  width:90%;
-  text-align:center;
-  height:80vh;
+#contentDiv {
+  
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .filler {
   width:100%;
   height:400px;
+  text-align:center;
+}
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+ 
+
+button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: white;
+
+
+
 }
 
 .project {
@@ -71,8 +101,9 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin:3px;
     display:inline-block;
-    width:48%;
-    text-align:center;
+    width:46%;
+    /* text-align:center; */
+    
 
 }
 
@@ -86,7 +117,7 @@ main {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     font-family:"Raleway";
-    m
+    
 
     
    width:90%;
@@ -101,7 +132,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    width:1920px;
+    max-width:1920px;
 }
 
 .Descriptions {
@@ -134,18 +165,18 @@ aside {
 }
 dt {
     font-family:"Raleway";
-    font-size: 4em;
+    font-size: 4rem;
     padding-left: 35px;
-    margin-right:50px;
+    margin-right:75px;
     
   }
 dd {
     
     
-    font-size: 2.5em;
+    font-size: 2.5rem;
     
     font-family: "Raleway";
-    margin-right:50px;
+    margin-right:75px;
     
   }
   dl {
@@ -161,6 +192,8 @@ dd {
     background-color:black;
     padding:25px;
     letter-spacing:10px;
+    margin-right:25px;
+    
     
   }
   div {
@@ -180,6 +213,12 @@ dd {
   margin-right: auto;
   filter: blur(4px);
   -webkit-filter: blur(4px);
+  width:700px;
+  height:450px;
+  
+  
+  
+  
   }
   .center:hover {
     filter: blur(0px);
@@ -215,4 +254,7 @@ html {
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+
+
   
